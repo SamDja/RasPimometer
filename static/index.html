@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="raspimometer" lang="it">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title>RasPiMometer</title>
+    <link rel="stylesheet" href="static/css/materialize.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!--  LIBRARIES  -->
+    <script src="static/dist/jquery-2.2.1.min.js"></script>
+    <script src="static/dist/snap.svg.js"></script>
+    <script src="static/dist/materialize.min.js"></script>
+
+    <!-- ANGULAR -->
+    <script src="static/dist/angular.min.js"></script>
+    <script src="static/dist/angular-route.min.js"></script>
+
+    <script src="static/js/termometer.js"></script>
+    <script src="static/js/app.js"></script>
+</head>
+
+<body>
+    <nav class="green">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">RasPiMeter</a>
+    </div>
+  </nav>
+<div ng-view></div>
+</body>
+</html>
